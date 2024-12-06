@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0a0a23;
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: #000;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+  }
+  
+  .cta-button {
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(to right, #1a1a3b, #0a0a23);
+  }
+  
+  .hero-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .metrics-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .metric-card {
+    background: #121232;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .chart-placeholder {
+    height: 100px;
+    background: #2a2a5b;
+    border-radius: 4px;
+    margin-top: 1rem;
+  }
+  
+  .charts-section {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .chart {
+    background: #121232;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
